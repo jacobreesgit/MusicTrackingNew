@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		074179942E1460E900048680 /* MusicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074179932E1460E900048680 /* MusicKit.framework */; };
+		074179962E1460EF00048680 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074179952E1460EF00048680 /* MediaPlayer.framework */; };
+		074179982E1460F400048680 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074179972E1460F400048680 /* CloudKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0741797C2E145AC100048680 /* MusicTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074179932E1460E900048680 /* MusicKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MusicKit.framework; path = System/Library/Frameworks/MusicKit.framework; sourceTree = SDKROOT; };
+		074179952E1460EF00048680 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		074179972E1460F400048680 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074179982E1460F400048680 /* CloudKit.framework in Frameworks */,
+				074179962E1460EF00048680 /* MediaPlayer.framework in Frameworks */,
+				074179942E1460E900048680 /* MusicKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				0741797E2E145AC100048680 /* MusicTracking */,
+				074179922E1460E900048680 /* Frameworks */,
 				0741797D2E145AC100048680 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +69,16 @@
 				0741797C2E145AC100048680 /* MusicTracking.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		074179922E1460E900048680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074179972E1460F400048680 /* CloudKit.framework */,
+				074179952E1460EF00048680 /* MediaPlayer.framework */,
+				074179932E1460E900048680 /* MusicKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
