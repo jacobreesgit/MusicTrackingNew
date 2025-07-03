@@ -7,9 +7,9 @@
 	
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>com.jaba.MusicTracking.cleanup</string>
-		<string>com.jaba.MusicTracking.stats</string>
-		<string>com.jaba.MusicTracking.monitoring</string>
+		<string>jaba.MusicTracking.cleanup</string>
+		<string>jaba.MusicTracking.stats</string>
+		<string>jaba.MusicTracking.monitoring</string>
 	</array>
 	
 	<key>UIBackgroundModes</key>
